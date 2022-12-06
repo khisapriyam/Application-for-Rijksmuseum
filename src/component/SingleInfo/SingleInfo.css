@@ -1,0 +1,95 @@
+.back-btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #E10856;
+}
+
+.container .back-button{
+    /* Back to the List */
+    width: 125px;
+    height: 24px;
+
+    /* Desktop/H5 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E10856;
+    
+}
+.container a{
+    text-decoration: none;
+}
+.card-img {
+    width: 1408px;
+    height: 850px;
+    object-fit: cover;
+}
+.card-body{
+    /* Single */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 32px;
+
+    position: relative;
+    width: 100%;
+    height: 60px;
+
+    background: linear-gradient(112.68deg, #23293E 0%, #1D1D1D 57.46%);
+    color: white;
+
+}
+
+.card-single .card-title{
+    /* Title */
+
+    position: absolute;
+    height: 132px;
+    left: 24px;
+    right: 80px;
+    bottom: 40px;
+
+    /* Desktop/H3 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Secondary/Dust */
+
+    color: #9d7474;
+}
+
+.card-single .card-title:hover{
+    color: red;
+}
+.image-info{
+    margin-top: 10px;
+    color: white;
+    padding-bottom: 30px;
+}
+.image-info .title{
+    font-size: 12px;
+}
+
+@media(max-width: 1024px){
+    .card-single{
+        margin-left: 25px;
+    }
+    .image-info{
+        margin-left: 25px;
+    }
+  }

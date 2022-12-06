@@ -1,0 +1,166 @@
+.cards{
+    height: 364px;
+    width: 420px;
+    margin-bottom: 17px;
+}
+.cards img{
+    height: 364px;
+    object-fit: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 34.32%, rgba(0, 0, 0, 0.72) 72.5%);
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+
+}
+
+.images .all-artwork{
+    width: 272px;
+    height: 64px;
+
+    /* Desktop/H1 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 64px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    /* Secondary/Dust */
+
+    color: #C4C4C4;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.cards .card-title{
+    /* color: white; */
+    /* Title */
+
+    position: absolute;
+    height: 132px;
+    left: 24px;
+    right: 80px;
+    bottom: 40px;
+
+    /* Desktop/H3 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    /* or 125% */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Secondary/Dust */
+
+    color: #a87979;
+    /* color: #CA35F7; */
+}
+.cards .card-title:hover{
+    color: rgb(176, 48, 48);
+
+}
+
+/* pagination style*/
+.pagination {
+    /* display: flex; */
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 5px;
+    list-style: none;    
+}
+.pagination a{
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+  
+
+}
+.pagination .page-num{
+    cursor: pointer;
+    padding: 8px 15px;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    width: 11px;
+    height: 24px;
+
+    /* Mobile/H4 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    /* Secondary/Dust */
+
+    color: #C4C4C4;
+
+    text-shadow: 0px 40px 40px rgba(0, 0, 0, 0.12);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+        
+}
+.pagination .page-num:hover{
+    background-color: rgb(31, 28, 28);
+}
+.pagination .active{
+    border: 1px solid red;
+    /* Label */
+
+    width: 11px;
+    height: 24px;
+
+    /* Mobile/H4 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    /* Primary/White */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 40px 40px rgba(0, 0, 0, 0.12);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.pagination .dot{
+    color: white;
+    padding: 7px 12px;
+}
+.pagination .dot:hover{
+    background-color: rgb(31, 28, 28);
+
+}

@@ -1,0 +1,11 @@
+#Please read the instructions to run the code
+Unzip the file
+Open the file in vs-code
+Open a new terminal in vs-code
+In the terminal - run the following command to start- 
+npm start
+-------------------------------------
+Navigation through the website- 
+The main page contains images from the API with titles
+On the search part images can be searched by the title of the images
+Individual information of images can be seen once clicked on the title of the images
